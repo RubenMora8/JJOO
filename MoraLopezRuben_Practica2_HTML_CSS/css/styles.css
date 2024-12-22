@@ -1,0 +1,86 @@
+/* Estilos base */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Paris";
+}
+
+@font-face{
+    font-family: "Paris";
+    src: url(../assets/fonts/Paris2024-Variable.ttf);
+}
+
+/* Estilos del encabezado */
+.encabezado{
+    display: flex;
+    width: 100%;
+    background-color: #003580;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.encabezado_titulo{
+    font-size: 2em;
+    margin: 0;
+}
+
+.encabezado_img{
+    width: 120px;
+}
+
+/* Estilos de la barra de navegación */
+.navegacion{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #ebebeb;
+    padding: 10px 0;
+}
+
+.navegacion_enlace{
+    text-decoration: none;
+    color: #003580;
+    font-weight: bold;
+}
+
+.navegacion_enlace:hover{
+    color: #D50032;
+}
+
+/* Contenedor principal */
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Pie de página */
+.pie{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: #003580 3px solid;
+}
+
+.pie_texto{
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.redes_link{
+    text-decoration: none;
+}
+
+.redes_img{
+    width: 30px;
+    margin: 0 10px;
+}

@@ -1,0 +1,59 @@
+/* Historia principal */
+.historia_principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.historia_imagen {
+    flex: 1 1 400px;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.historia_texto {
+    flex: 1 1 300px;
+    padding: 20px;
+    
+}
+
+.historia_texto_tit {
+    color: #003580;
+    margin-top: 0;
+}
+
+/* Línea de tiempo */
+.linea_tiempo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tiempo_item {
+    flex: 1 1 300px;
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tiempo_fecha {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #003580;
+    min-width: 100px;
+}
+
+.tiempo_contenido_tit{
+    margin: 0 0 10px 0;
+    color: #003580;
+}
+
+.tiempo_contenido_txt{
+    margin: 0;
+}

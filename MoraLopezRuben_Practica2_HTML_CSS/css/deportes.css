@@ -1,0 +1,50 @@
+/* Contenedor y flex */
+.contenedor_flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex_item{
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #F4F4F4;
+    border-radius: 0.8rem;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.contenedor_titulo{
+    font-size: 1.8em;
+    text-align: center;
+    color: #003580;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.item_titulo{
+    background-color: #003580;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Imágenes */
+.item_imagen{
+    width: 100%;
+    height: 240px;
+}
+
+/* Listas */
+.item_lista{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+}
+
+.item_lista_txt{
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}

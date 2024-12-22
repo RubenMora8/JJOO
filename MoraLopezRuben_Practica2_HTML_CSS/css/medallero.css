@@ -1,0 +1,46 @@
+/* Contenedor y título */
+.contenedor_titulo{
+    font-size: 1.8em;
+    text-align: center;
+    color: #003580;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+/* Tabla del medallero */
+.medallero_tabla{
+    width: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+.medallero_tabla th,
+.medallero_tabla td{
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.medallero_tabla th{
+    background-color: #003580;
+    color: white;
+}
+
+
+/* Información adicional */
+.medallero_info{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ebebeb;
+    border-radius: 15px;
+}
+
+.medallero_lista{
+    list-style-type: none;
+    padding: 0;
+}
+
+.medallero_lista li{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
